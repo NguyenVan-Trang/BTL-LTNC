@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1716446309 source:c:\btl ltnc\tetris\main.cpp
+	<iostream>
+	"game.h"
+
+1716446284 c:\btl ltnc\tetris\game.h
+	"well.h"
+	<SDL.h>
+	<SDL_image.h>
+
+1716446255 c:\btl ltnc\tetris\well.h
+	"tetromino.h"
+	<SDL.h>
+
+1716446316 c:\btl ltnc\tetris\tetromino.h
+	<SDL.h>
+
+1716446380 source:c:\btl ltnc\tetris\well.cpp
+	"well.h"
+
+1716446757 source:c:\btl ltnc\tetris\tetromino.cpp
+	"tetromino.h"
+
+1716446629 source:c:\btl ltnc\tetris\game.cpp
+	"game.h"
+	<stdexcept>
+	<iostream>
+	<string>
+	<SDL_image.h>
+
